@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "Quinn"
 version = "0.1"
+dependencies = ["gitpython", "SpeechRecognition", "gtts", "playsound", "numpy", "sounddevice"]
 
 [project.urls]
 GitHub = "https://github.com/d33pster/Quinn"
